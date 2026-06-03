@@ -25,20 +25,3 @@ class Product:
     def check_quantity(self):
         return self.quantity >= 10
     
-product = Product(
-    "Laptop",
-    1200.0,
-    15,
-    "Gaming laptop sa 16GB RAM memorije"
-)
-
-print(product.name)
-print(product.get_price())
-print(product.get_description())
-print(product.check_quantity())  # True
-
-product.set_price(1300.0)
-product.set_description("Gaming laptop sa 32GB RAM memorije")
-
-print(product.get_price())
-print(product.get_description())

@@ -22,17 +22,3 @@ class Employee(person.Person):
             f"Adresa: {self.get_address()}\n"
             f"Plata: {self.get_salary()}"
         )
-
-employee = Employee(
-    "Marko Marković",
-    "marko@gmail.com",
-    80000,
-    "Beograd"
-)
-
-print(employee.display_info())
-
-employee.increase_salary(10)
-
-print("\nNakon povećanja plate:")
-print(employee.display_info())

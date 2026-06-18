@@ -8,7 +8,7 @@ class User(person.Person):
         self.phone = phone
         self.shopping_history = []
         
-    # Getter za broj telefona
+    # Getter for the phone number
     def get_phone(self):
         return self.phone
 
